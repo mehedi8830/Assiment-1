@@ -94,9 +94,19 @@ nav .menu-size a {
     color: #ffffff;
     box-sizing: border-box;
     background-color: transparent;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
 }
 
+.btn1 span{
+color: white;
 
+}
+.btn span{
+    color: white;
+}
 .paragraph{
     color: rgb(241, 236, 236);
     font-size: smaller;
@@ -108,36 +118,14 @@ nav .menu-size a {
 
 .White{
     color: white;
-   font-size: 50px;
+   font-size: 70px;
 
 }
 .green{
     color: green;
-    font-size: 50px;
+    font-size: 70px;
 
 }
-
-/* #banner{
-    text-align: center;
-    border: 1px solid red;
-    height: 1363px;
-    width: 2042px;
-    margin: 24px 0px 0px 0px;
-    background-image: url("../assets/hero-bg.png");
-    background-repeat: no-repeat;
-   display: flex;
-   text-align: center;
-} */
-
-
-
-
-
-
-
-
-
-
 
 
 #note{
@@ -205,6 +193,7 @@ nav .menu-size a {
 .space-info h4{
 
     font-size: 18px;
+    color: green
    
 }
 .space-info h1{
